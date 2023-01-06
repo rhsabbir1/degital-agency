@@ -2,7 +2,21 @@
     margin: 0;
     padding: 0;
 }
-
+.primary-color{
+    color: rgb(219, 21, 21);
+}
+.discrption{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    font-size: 18px;
+    padding: 15px 35px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+}
 /* --header style --*/
 
 .nav-container{
@@ -31,6 +45,22 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
     background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: bold;
+}
+.btn-discover{
+    background-color: rgb(219, 21, 21);
+    color: #ffffff;
+}
+.btn-hire-me{
+    color:rgb(219, 21, 21) ;
+    border: 1px solid rgb(219, 21, 21);
 }
