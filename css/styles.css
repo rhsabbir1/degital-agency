@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header style */
+
+.nav-container{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: #9b9898;
+}
+.menu-container ul{
+    display: flex;
+    
+}
+.menu-container li{
+    list-style: none;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+}
